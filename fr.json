@@ -1,5 +1,5 @@
 {
-  "new-key-to-test-conflicts":"Youpi",
+  "new-key-to-test-conflicts": "Youpi",
   " project_assessment.presentation_details.cancel_presentation.cancel.button": "Ne pas annuler",
   " project_assessment.presentation_details.cancel_presentation.confirm.button": "Annuler la soutenance",
   " project_assessment.presentation_details.cancel_presentation.other_choice": "Autre",
@@ -7,10 +7,10 @@
   " student_dashboard.enrollment_action_steps.contract_ready.title": "Signez votre contrat",
   " uk.business.how_it_works.third.title": "Get tailored training for the individual needs of your business",
   "À faire": "À faire",
-  "about_us.bcorp.block1": "Certifiée <a href=\"https://mathieu.nebra.fr/2021/pourquoi-le-label-b-corp-merite-detre-plus-connu/\">B Corp</a> depuis 2021, OpenClassrooms est fière de faire partie de la communauté des entreprises à impact positif. Avec <strong>un score de 101.2</strong>, OpenClassrooms a été particulièrement récompensée sur sa gouvernance et son impact positif auprès de ses étudiants !!",
+  "about_us.bcorp.block1": "Certifiée <a href=\"https://mathieu.nebra.fr/2021/pourquoi-le-label-b-corp-merite-detre-plus-connu/\">B Corp</a> depuis 2021, OpenClassrooms est fière de faire partie de la communauté des entreprises à impact positif. Avec <strong>un score de 101.2</strong>, OpenClassrooms a été particulièrement récompensée sur sa gouvernance et son impact positif auprès de ses étudiants.",
   "about_us.bcorp.block2": "En 2024, OpenClassrooms n'a pas seulement réussi à renouveler sa certification B Corp, mais l'a fait avec <strong>un score nettement supérieur : 117.4, +16% depuis 2021, ce qui le place leader dans les Edtech de sa catégorie.</strong>",
   "about_us.bcorp.block3": "B corp est un mouvement international de 5 000 entreprises qui ont passé une certification rigoureuse pour démontrer leur impact positif sur toutes leurs parties prenantes.",
-  "about_us.bcorp.title": "Une entreprise certifiée B Corp!",
+  "about_us.bcorp.title": "Une entreprise certifiée B Corp?",
   "about_us.bcorp_diagram.median_score": "Score médian des entreprises",
   "about_us.bcorp_diagram.oc_score": "Score d’OpenClassrooms",
   "about_us.bcorp_diagram.qualify_score": "Score minimum pour être certifié",
@@ -9619,5 +9619,6 @@
   "welcome.student_welcome.cta": "C’est parti",
   "welcome.student_welcome.main_title": "Bienvenue !",
   "welcome.student_welcome.subtitle": "Nous sommes ravis de vous accueillir dans la communauté OpenClassrooms. \n<br>Prêt à construire votre avenir ?",
-  "welcome.student_welcome.tab_title": "Bienvenue"
+  "welcome.student_welcome.tab_title": "Bienvenue",
+  "adrien.test": "Test FR"
 }
