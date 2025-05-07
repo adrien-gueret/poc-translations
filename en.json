@@ -1,5 +1,5 @@
 {
-  "new-key-to-test-conflicts":"Hourray",
+  "new-key-to-test-conflicts": "Hourray",
   " project_assessment.presentation_details.cancel_presentation.cancel.button": "Don’t cancel",
   " project_assessment.presentation_details.cancel_presentation.confirm.button": "Cancel presentation",
   " project_assessment.presentation_details.cancel_presentation.other_choice": "Other",
@@ -11,10 +11,10 @@
   "1st-line": "Alexandra Mathou",
   "2nd-line": "Data Analyst",
   "À faire": "To do",
-  "about_us.bcorp.block1": "As a <a href=\"https://www.bcorporation.net/en-us/find-a-b-corp/company/open-classrooms/\">B Corp-certified company</a>, OpenClassrooms takes immense pride in being a valued member of the community of companies making a positive impact. With a <strong>101.2 score</strong>, OpenClassrooms has been recognized for its governance and positive impact on its students !!",
+  "about_us.bcorp.block1": "As a <a href=\"https://www.bcorporation.net/en-us/find-a-b-corp/company/open-classrooms/\">B Corp-certified company</a>, OpenClassrooms takes immense pride in being a valued member of the community of companies making a positive impact. With a <strong>101.2 score</strong>, OpenClassrooms has been recognized for its governance and positive impact on its students. ",
   "about_us.bcorp.block2": "OpenClassrooms has gone through its re-certification process in 2024 <strong>with a remarkable impact score of 117.4, +16% since our last certification in 2021, making us the highest-ranking education company of our size.</strong>",
   "about_us.bcorp.block3": "B Corp companies form an international community of 5,000 members who passed a rigorous certification process to demonstrate their positive impact on all their stakeholders. OpenClassrooms was awarded high scores in the Governance and Customers categories.",
-  "about_us.bcorp.title": "B Corp certified company!",
+  "about_us.bcorp.title": "B Corp certified company?",
   "about_us.bcorp_diagram.median_score": "Median score for ordinary businesses",
   "about_us.bcorp_diagram.oc_score": "OpenClassrooms’ score",
   "about_us.bcorp_diagram.qualify_score": "Qualifies for B Corp certification",
@@ -9671,5 +9671,6 @@
   "welcome.student_welcome.cta": "Discover learning journey",
   "welcome.student_welcome.main_title": "Welcome! ",
   "welcome.student_welcome.subtitle": "Are you ready to become future-proof?\n<br>Your new life starts here.",
-  "welcome.student_welcome.tab_title": "Welcome"
+  "welcome.student_welcome.tab_title": "Welcome",
+  "adrien.test": "EN test"
 }
