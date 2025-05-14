@@ -7,6 +7,7 @@ on:
 
 jobs:
   generate-strings:
+    if: ${{ !(github.event.created == true && github.ref_type == 'branch') }}
     runs-on: ubuntu-latest
 
     steps:
