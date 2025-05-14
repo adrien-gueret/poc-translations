@@ -27,7 +27,7 @@ jobs:
           git config --global user.name "GitHub Action"
           git config --global user.email "action@github.com"
           git add *.strings
-          git commit -m "Generate .strings files"
+          git commit -m "${{ github.event.head_commit.message }}"
           git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
