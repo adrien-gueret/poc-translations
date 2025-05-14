@@ -6,11 +6,13 @@ function jsonToStrings(jsonFilePath, outputFilePath) {
   let stringsContent = '';
 
   for (const [key, value] of Object.entries(jsonData)) {
-    stringsContent += `"${key}" = "${value}";
+    const escapedValue = value.replace(/\\/g, '\\\\').replace(/\n/g, '\\n').replace(/\t/g, '\\t');
+    stringsContent += `"${key}" = "${escapedValue}";
+
 `;
   }
 
-  fs.writeFileSync(outputFilePath, stringsContent, 'utf8');
+  fs.writeFileSync(outputFilePath, stringsContent.trim(), 'utf8');
   console.log(`Generated: ${outputFilePath}`);
 }
 
