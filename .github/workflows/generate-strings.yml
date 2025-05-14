@@ -1,0 +1,33 @@
+name: Generate .strings files
+
+on:
+  push:
+    branches:
+      - '*'
+
+jobs:
+  generate-strings:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '16'
+
+      - name: Generate .strings files
+        run: |
+          node generate-strings.js
+
+      - name: Commit and push changes
+        run: |
+          git config --global user.name "GitHub Action"
+          git config --global user.email "action@github.com"
+          git add *.strings
+          git commit -m "Generate .strings files"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
